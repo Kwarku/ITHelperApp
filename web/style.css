@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: arial,serif ;
+
+}
+body{
+    background-color: grey;
+}
+
+#wrapper {
+    background-color: white;
+    height: 400px;
+    width: 80%;
+    position: center;
+    margin: 20px auto auto;
+    padding: 10px;
+}
+
+#top-panel a{
+    display: inline-block;
+    border: 2px solid black;
+    margin: 10px 20px;
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#top-panel a:hover {
+    background-color: black;
+    color: white;
+
+}
