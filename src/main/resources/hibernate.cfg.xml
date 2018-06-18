@@ -11,6 +11,12 @@
         <property name="connection.password">pawel1234</property>
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
         <property name="show_sql">true</property>
-        <!--<mapping></mapping>-->
+
+        <!--mapping-->
+        <mapping class="pl.narodzinyprogramisty.entity.NormalUser"/>
+        <mapping class="pl.narodzinyprogramisty.entity.SellerUser"/>
+        <mapping class="pl.narodzinyprogramisty.entity.Ad"/>
+
+
     </session-factory>
 </hibernate-configuration>

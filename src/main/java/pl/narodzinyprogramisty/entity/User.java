@@ -1,13 +1,25 @@
 package pl.narodzinyprogramisty.entity;
 
+import javax.persistence.Column;
+import javax.persistence.Embeddable;
 import java.util.Objects;
 
-
-public abstract class User {
+@Embeddable
+public  class User {
+    @Column(name = "first_name")
     private String name;
+
+    @Column(name = "last_name")
     private String lastName;
-    private String password;
+
+    @Column(name = "login")
     private String login;
+
+    @Column(name = "password")
+    private String password;
+
+    public User() {
+    }
 
     public User(String name, String lastName, String password, String login) {
         this.name = name;
