@@ -1,0 +1,43 @@
+#wrapper {
+    text-align: center;
+    background-color: white;
+    width: 60%;
+    margin: 1.25em auto;
+    padding: 0.625em;
+}
+
+#wrapper h1 {
+    font-size: 1.25em;
+    width: auto;
+    margin: 0.3125em auto;
+}
+
+#wrapper ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#wrapper li.input {
+    margin-bottom: 1.25em;
+}
+
+#wrapper li.text {
+    margin-bottom: 0px;
+}
+
+#wrapper input {
+    width: 15.625em;
+    font-size: 1em;
+}
+
+.button input {
+    font-weight: bold;
+    border-radius: 0.625em;
+    background: linear-gradient(to bottom right, #c4c4c4, #162109);
+    box-shadow: 0.3125em 0.3125em 0.3125em  0px rgba(0, 0, 0, 0.6);
+}
+
+.button input:hover {
+    background: linear-gradient(to bottom right, #162109,  #c4c4c4);
+    color: white;
+}
