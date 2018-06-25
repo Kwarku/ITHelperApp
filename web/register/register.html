@@ -3,33 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>Zarejestruj się</title>
-    <link rel="stylesheet" type="text/css" href="sign-up-style.css">
+
     <link rel="stylesheet" type="text/css" href="../main-style.css">
+    <link rel="stylesheet" type="text/css" href="register.css">
 </head>
 <body>
 <div id="wrapper">
     <h1>Zarejestruj się<br>by móc korzystać z aplikacji</h1>
+
     <form action="http://localhost:8080/sign-up" method="post">
         <ul>
 
             <li class="text">Imię:</li>
             <li class="input"><input type="text" name="name"></li>
+
             <li class="text">Nazwisko:</li>
             <li class="input"><input type="text" name="lastName"></li>
+
             <li class="text">Login:</li>
             <li class="input"><input type="text" name="login"></li>
+
             <li class="text">Hasło:</li>
             <li class="input"><input type="password" name="pass1"></li>
+
             <li class="text">Powtórz hasło:</li>
             <li class="input"><input type="password" name="pass2"></li>
+
             <li class="text">Akceptuję regulamin</li>
-            <li class="input"><input type="checkbox" name="regulations" ></li>
+            <li class="input"><input type="checkbox" name="regulations"></li>
 
             <li class="button"><input type="submit" value="Zarejestruj się"></li>
 
 
         </ul>
     </form>
+
+    <hr>
+    <p>Posiadasz już konto?
+        <stron><a href="../login/login.html"> zaloguj się</a></stron>
+    </p>
 
 </div>
 

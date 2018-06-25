@@ -1,0 +1,55 @@
+#wrapper {
+    text-align: center;
+    background-color: white;
+    width: 30%;
+    margin: 1.25em auto;
+    padding: 0.625em;
+    font-family: KacstOffice, arial, serif;
+}
+h1{
+
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+ul{
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+
+
+li.input {
+    margin-top: 0.1em;
+    margin-bottom: 1.5em;
+    height: 1.5em;
+}
+
+li.button input {
+    width: 10em;
+    height: 2em;
+    font-weight: bold;
+    border-radius: 0.625em;
+    background: linear-gradient(to bottom right, #c4c4c4, #162109);
+    box-shadow: 0.3125em 0.3125em 0.3125em 0px rgba(0, 0, 0, 0.6);
+}
+
+li.button input:hover {
+    background: linear-gradient(to bottom right, #162109, #c4c4c4);
+    color: white;
+}
+
+
+hr {
+    width: 90%;
+    margin-top: 3em;
+}
+p a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+}
+p a:hover{
+    color: #c4c4c4;
+}

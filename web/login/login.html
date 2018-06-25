@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link type="text/css" rel="stylesheet" href="../main-style.css">
+    <link type="text/css" rel="stylesheet" href="login.css">
+
+</head>
+<body>
+    <div id="wrapper">
+        <h1> Zaloguj się</h1>
+        <form action="http://localhost:8080/sign-in" method="post">
+         <ul>
+             <li class="text">Login</li>
+             <li class="input"><input type="text" placeholder="Login" name="login"></li>
+
+             <li class="text">Hasło</li>
+             <li class="input"><input type="password" placeholder="Password" name="password"></li>
+
+             <li class="button"><input type="submit" value="LogIn"></li>
+         </ul>
+        </form>
+
+        <hr>
+        <p>Nie posiadasz jeszcze konta? <br>
+            <strong><a id="sign-in" href="../register/register.html">zarejestruj się</a></strong>
+        </p>
+
+    </div>
+
+</body>
+</html>
